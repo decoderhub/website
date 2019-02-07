@@ -5,7 +5,7 @@
       <div class="max-w-lg w-full">
         <h1 class="text-3xl md:text-4xl font-normal leading-normal">We craft beautiful and powerful fullstack web and android applications.</h1>
         <div class="mt-8">
-          <a href="#" class="uppercase tracking-wide text-sm no-underline inline-block bg-black rounded px-6 py-3 text-white">Start a project</a>
+          <a href="#" class="uppercase tracking-wide text-sm no-underline inline-block bg-indigo rounded px-6 py-3 text-white">Start a project</a>
         </div>
       </div>
       <div class="w-full p-4 hidden md:block">

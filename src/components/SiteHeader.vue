@@ -13,7 +13,7 @@
           <a href="#" class="mx-3 no-underline text-black">Contact</a>
         </div>
         <div class="flex-1 text-right hidden md:block">
-          <a href="#" class="uppercase tracking-wide text-xs no-underline inline-block bg-black rounded px-4 py-3 text-white">Start a project</a>
+          <a href="#" class="uppercase tracking-wide text-xs no-underline inline-block bg-indigo rounded px-4 py-3 text-white">Start a project</a>
         </div>
       </div>
     </div>
