@@ -50,7 +50,7 @@ export default {
         height: 153px !important;
     }
     .footer-svg-wrapper {
-        height: 60px;
+        height: 60px !important;
     }
 }
 </style>
