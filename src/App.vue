@@ -1,28 +1,41 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="font-sans text-black antialiased border-t-2 border-indigo">
+    <div class="py-6">
+      <div class="container mx-auto flex items-center justify-between">
+        <div class="flex-1 flex items-center">
+          <span class="inline-block bg-white rounded-tl-lg rounded-br-lg text-black flex items-center justify-center">
+            <svg class="fill-current w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44.25 38.92"><g><path class="cls-1" d="M14.64,17.89,34.44,0h-27L0,38.92H30.64A9.69,9.69,0,0,0,32,38.83L14.54,21.1A2.22,2.22,0,0,1,14.64,17.89Z"/><path class="cls-1" d="M38.74,4.16l-16,14.43a1.91,1.91,0,0,0-.08,2.76L35.76,34.67a8.59,8.59,0,0,0,3.57-5.48l3.1-16.25A8.59,8.59,0,0,0,38.74,4.16Z"/></g></svg>
+          </span>
+          <span class="ml-2">/ decoderhub</span>
+        </div>
+        <div class="text-center flex-1">
+          <a href="#" class="mx-3 no-underline text-black">Home</a>
+          <a href="#" class="mx-3 no-underline text-black">About</a>
+          <a href="#" class="mx-3 no-underline text-black">Contact</a>
+        </div>
+        <div class="flex-1 text-right">
+          <a href="#" class="uppercase tracking-wide text-xs no-underline inline-block bg-black rounded px-4 py-3 text-white">Start a project</a>
+        </div>
+      </div>
+    </div>
+    <div class="container mx-auto flex items-center mt-4">
+      <div class="max-w-lg w-full">
+        <h1 class="text-4xl font-normal leading-normal">We craft beautiful and powerful fullstack web applications and android apps.</h1>
+        <div class="mt-8">
+          <a href="#" class="uppercase tracking-wide text-sm no-underline inline-block bg-black rounded px-6 py-3 text-white">Start a project</a>
+        </div>
+      </div>
+      <div class="w-full p-4">
+        <img src="./assets/app-user-monochrome.svg" alt="">
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import './assets/main.css'
 
 export default {
   name: 'app',
-  components: {
-    HelloWorld
-  }
 }
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
