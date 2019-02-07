@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="font-sans text-black antialiased border-t-2 border-indigo">
     <site-header />
-    <div class="container mx-auto flex items-center mt-4 px-6 md:px-3">
+    <div class="container mx-auto flex items-center mt-12 mb-12 md:mb-0 md:mt-4 px-6 md:px-3">
       <div class="max-w-lg w-full">
         <h1 class="text-3xl md:text-4xl font-normal leading-normal">We craft beautiful and powerful fullstack web and android applications.</h1>
         <div class="mt-8">
