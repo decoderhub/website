@@ -1,6 +1,6 @@
 <template>
     <div class="mt-16">
-      <div class="relative overflow-hidden text-black footer-svg-wrapper" style="height: 150px;">
+      <div class="relative overflow-hidden text-black footer-svg-wrapper">
         <svg viewBox="0 0 500 500" preserveAspectRatio="none" id="footer-svg" class="fill-current">
           <circle cx="50%" cy="50%" r="50%" stroke="black" stroke-width="0"></circle>
         </svg>
@@ -45,6 +45,9 @@ export default {
 </script>
 
 <style>
+.footer-svg-wrapper {
+    height: 150px;
+}
 @media (max-width: 450px) {
     #footer-svg {
         height: 153px !important;
