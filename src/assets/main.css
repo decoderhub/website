@@ -1,3 +1,11 @@
 @tailwind preflight;
 @tailwind components;
+
+#footer-svg {
+    position: absolute;
+    height: 306px;
+    width: 120%;
+    margin-left: -10%;
+}
+
 @tailwind utilities;
